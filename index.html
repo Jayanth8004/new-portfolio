@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>my portfolio </title>
+  <link rel="stylesheet" href="style.css">
+  <!-- box icons -->
+
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+  <!-- header design -->
+  <header class="header">
+    <a href="#home" class="logoo">My Portfolio.</a>
+    <div class="navbar-container">
+    <nav class="navbar">
+      <a href="#home" class="active"> Home</a>
+      <a href="#about">About Me</a>
+      <a href="#skills">Skills</a>
+      <a href="#portfoliojay">Projects</a>
+      <a href="#servicesjay">My Services</a>
+      <a href="#contact">Contact Me</a>
+    </nav>
+    <button class="burger-icon" onclick="toggleMenu()">☰</button>
+</div>
+    <!--toggle section-->
+    <div class="toggle-container">
+      <input type="checkbox" id="theme-toggle" />
+      <label for="theme-toggle" class="toggle-label">
+        <i class="bx bx-sun"></i>
+        <i class="bx bx-moon"></i>
+      </label>
+    </div>
+  </header>
+
+
+  <!-- Home section -->
+  <section class="home" id="home">
+    <div class="everything" style="overflow: hidden;">
+      <div class="img1">
+        <div class="inside-box">
+          <img src="home-main-removebg-preview.png" alt="">
+        </div>
+      </div>
+
+      <div class="home-content" style="margin-left: 10rem; margin-top: 10rem;">
+        <h1 style="font-size: 6rem;">Hi, It's <span>Jayanth HS</span></h1>
+        <h3 class="typing-text">I'm a <span></span></h3>
+        <h3>I am a 1st year CSE Student.. </h3>
+      </div>
+    </div>
+  </section>
+
+  <!-- about section design -->
+  <section class="about" id="about">
+    <div class="about-img">
+      <img src="jayyy.jpg" alt="">
+    </div>
+
+    <div class="about-content">
+      <h2 class="heading">About <span>Me</span></h2>
+      <h3>I am a passionate Computer Science student specializing in Full Stack Web Development. Alongside my academic
+        journey, I am actively pursuing certification courses to broaden my expertise. Additionally,
+        I offer freelance web development services, transforming client’s ideas into functional and visually appealing
+        websites.</h3>
+    </div>
+  </section>
+
+  <!--Skills section-->
+  <section id="skills" class="section">
+    <div class="have">
+      <h2 class="heading" style="margin-top: 5rem !important; padding: 0; margin-bottom: 10rem;"> S<span>kills</h2>
+      <div class="skills">
+        <div class="skill">HTML</div>
+        <div class="skill">CSS</div>
+        <div class="skill">JavaScript</div>
+        <div class="skill">C.Language</div>
+        <div class="skill">Python</div>
+        <div class="skill">VFX</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- portfolio section design -->
+
+  <section class="portfolio" id="portfoliojay">
+    <h2 class="heading">Latest <span>Project</span></h2>
+    <div class="portfolio-container">
+      <div class="portfolio-box">
+        <img src="portfolio1.png" alt="">
+        <div class="portfolio-layer">
+          <h4>Amazon Clone</h4>
+          <p>I have cloned the amazone webpage and this was my first project.</p>
+          <a href="https://jayanth8004.github.io/Amazon-clone/"><i class='bx bx-link-external'></i></a>
+        </div>
+      </div>
+
+
+      <div class="portfolio-box">
+        <img src="portfolio2.png" class="port">
+        <div class="portfolio-layer">
+          <h4>Upcoming Project(Notes-PDF Converter)</h4>
+          <p>This project is under observation ,In this project if u type your notes that notes will be converted in pdf
+            form and u can also downlode it.</p>
+          <a href="#"><i class='bx bx-link-external'></i></a>
+        </div>
+      </div>
+
+
+      <div class="portfolio-box">
+        <img src="portfolio3.jpg" alt="">
+        <div class="portfolio-layer">
+          <h4>Flipkart Clone</h4>
+          <p>Clone of the flipkart website.</p>
+          <a href="https://jayanth8004.github.io/flipkart-cloan/"><i class='bx bx-link-external'></i></a>
+        </div>
+      </div>
+
+      <div class="portfolio-box">
+        <img src="jay.jpg" class="port">
+        <div class="portfolio-layer">
+          <h4>Sample of a portfolio</h4>
+          <p>Clone of the flipkart website.</p>
+          <a href="https://jayanth8004.github.io/MY-portfolio/"><i class='bx bx-link-external'></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--Services section-->
+  <section class="services" id="servicesjay">
+    <h2 class="heading"> My<span>Freelancing Services</span></h2>
+    <div class="services-container">
+      <div class="services-box">
+        <i class='bx bx-code-alt'></i>
+        <h3>Custom Websites</h3>
+        <p>I am making custom websites also if anybody intreasted contact me</p>
+        <a href="#" class="btn">Read More</a>
+      </div>
+
+      <div class="services-box">
+        <i class="fa-solid fa-crop-simple"></i>
+        <h3>Poster Making & Product Designing</h3>
+        <p>Poster making and product designining also done.</p>
+        <a href="#" class="btn">Read More</a>
+      </div>
+
+      <div class="services-box">
+        <i class="fa-brands fa-apple"></i>
+        <h3>Frontend Web pages</h3>
+        <p>If anybody want webpages they can also get back to us</p>
+        <a href="#" class="btn">Read More</a>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- contact section design -->
+
+  <section id="contact" class="section">
+    <h2 class="heading">Contact<span>Me</span></h2>
+    <form class="contact-form">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <input type="text" name="phone" placeholder="Your Phone Number" required>
+      <input type="text" name="place" placeholder="Your Place" required>
+      <textarea name="message" rows="4" placeholder="Your Message" required></textarea>
+      <button type="submit">Submit</button>
+    </form>
+
+    <div class="social-media">
+      <a href="https://www.linkedin.com/in/jayanth-hs-1a5768329/"><i class="fa-brands fa-linkedin"></i></a>
+      <a href="#"><i class="fa-brands fa-github"></i></a>
+      <a href=" https://wa.me/+918073860404"><i class="fa-brands fa-whatsapp"></i></a>
+      <a href="https://www.instagram.com/invites/contact/?igsh=lmyk8xu53ypj&utm_content=n5ninqa"><i
+          class="fa-brands fa-instagram"></i></a>
+    </div>
+    <a href="mailto:your-jayanth8004@gmail.com?subject=Contact from Portfolio&body=Hi, I am interested in your services. Please get back to me!"
+      class="btn">Contact Me</a>
+
+    <!-- footer design -->
+    <footer class="footer">
+      <div class="footer-text">Copyright &copy; 2025 by Coder | All Rights Reserved.</div>
+      <div class="footer-iconTop">
+        <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+      </div>
+    </footer>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
