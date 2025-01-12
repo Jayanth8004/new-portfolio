@@ -16,7 +16,7 @@
   --second-bg-color: white;
   --text-color: #fff;
   --main-color: #be50fa;
-  --box-color: rgb(14, 0, 74);
+  --box-color: rgb(14, 0, 74);             
 }
 
 html {
@@ -50,11 +50,12 @@ section {
 .everything {
   display: flex;
   position: relative;
-  gap: 20rem;
+  gap: 10rem;
   align-items: center;
-  padding: 3rem;
+  padding: 3rem;  
   height: 80vh;
   width: 80vw;
+ 
 }
 
 .img1 {
@@ -65,6 +66,7 @@ section {
   height: 60rem;
   width: 50rem;
   margin-left: 3rem;
+  
 }
 
 @keyframes jump {
@@ -601,6 +603,10 @@ span {
     .burger-icon {
       display: block;
       margin-right: 10rem;
+      background-color: transparent;
+      color: white;
+      font-size: 25px;
+
 
     }
   
@@ -608,7 +614,7 @@ span {
       display: flex;
     margin-left: 10rem;
     border-radius: 10px;
-    background-color: rgba(48, 30, 58, 0.842);
+    background-color: rgb(51, 45, 45);
     }
  
   .home {
@@ -865,7 +871,8 @@ body.light-mode .navbar a {
 /* Dark mode styles */
 body.dark-mode {
   color: white;
-}
+  }
+
 
 /* Set navbar text color in dark mode */
 body.dark-mode .navbar a {
@@ -875,3 +882,16 @@ body.dark-mode .navbar a {
 body.dark-mode .btn {
   color: white;
 }
+
+body.light-mode{
+  color: black;
+}
+
+body.light-mode .burger-icon{
+  color: black;
+}
+body.light-mode .navbar.show{
+  background-color: white;
+} 
+  
+  
