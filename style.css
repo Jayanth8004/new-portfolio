@@ -64,8 +64,8 @@ section {
   animation: jump 1.5s infinite alternate;
   border: 3px solid #be50fa;
   height: 60rem;
-  width: 50rem;
-  margin-left: 3rem;
+  width: 45rem;
+  /* margin-left: 3rem; */
   
 }
 
@@ -88,7 +88,7 @@ section {
 
 .inside-box img {
   position: relative;
-  width: 50rem;
+  width: 46rem;
   border-radius: 50%;
   height: 60rem;
   cursor: pointer;
@@ -211,7 +211,8 @@ header {
   align-items: center;
 }
 .home-img img {
-  width: 35vw;
+  width: 35vw; 
+ 
   animation: floatImage 4s ease-in-out infinite;
 }
 @keyframes floatImage {
