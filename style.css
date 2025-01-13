@@ -53,7 +53,7 @@ section {
   gap: 10rem;
   align-items: center;
   padding: 3rem;  
-  height: 80vh;
+  height: 95vh;
   width: 100vw;
  
 }
@@ -63,7 +63,7 @@ section {
   border-radius: 70%;
   animation: jump 1.5s infinite alternate;
   border: 3px solid #be50fa;
-  height: 60rem;
+  height: 55rem;
   width: 40rem;
   /* margin-left: 3rem; */
   
@@ -90,7 +90,7 @@ section {
   position: relative;
   width: 41rem;
   border-radius: 50%;
-  height: 60rem;
+  height: 54rem;
   cursor: pointer;
   transition: 0.2s linear;
   display: flex;
